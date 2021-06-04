@@ -9,4 +9,9 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="sms_permission_dialog_title">SMS Permission required</string>
+    <string name="sms_permission_dialog_message">SMS read permissions are required to automatically check the transactional messages to automate the investing process.</string>
+    <string name="action_ok">Ok</string>
+
 </resources>
