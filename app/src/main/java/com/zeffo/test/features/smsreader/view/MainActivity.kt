@@ -1,4 +1,4 @@
-package com.zeffo.test
+package com.zeffo.test.features.smsreader.view
 
 import android.Manifest
 import android.content.DialogInterface
@@ -14,10 +14,13 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
+import com.zeffo.test.R
 import com.zeffo.test.databinding.ActivityMainBinding
 
 
 class MainActivity : AppCompatActivity() {
+    val TAG = "SMSReader Activity"
+
     private val REQUEST_SMS_PERMISSION_CODE = 1000
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
