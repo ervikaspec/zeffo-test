@@ -6,6 +6,7 @@ object Constants {
     val SMS_CARD_REGEX = Regex("(?i)(?:\\smade on|ur|made a\\s|in\\*)([A-Za-z]*\\s?-?\\s[A-Za-z]*\\s?-?\\s[A-Za-z]*\\s?-?)")
     val AMOUNT_FORMAT_REGEX = Regex("[^(\\d+\\.?\\d)]")
     val ONLY_DIGITS_REGEX = Regex("[^\\d]")
+    val CREDITS_REGEX = Regex("credited|Credited|credits|Credits")
 
     const val NOTIFICATION_CHANNEL_ID = "ZeffoSmsServiceChannel"
     const val NOTIFICATION_CHANNEL_NAME = "Zeffo SMS Service Channel"
