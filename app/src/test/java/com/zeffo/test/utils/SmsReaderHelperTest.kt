@@ -56,6 +56,21 @@ class SmsReaderHelperTest {
             "Thanks for paying Rs.1,500.00 from A/c XXXX3091 to PAYUCREDCLUB via NetBanking. Call 18002098061 if txn not done by you",
             "VM-HDFCBK",
             1500.0)
+
+        smsMap["9"] = SMSData(
+            "Hi there, How are you? Here are your Rs. 400",
+            "+91-9958232949",
+            0.0)
+
+        smsMap["10"] = SMSData(
+            "I was busy in something else",
+            "+919958232949",
+            0.0)
+
+        smsMap["11"] = SMSData(
+            "Was trying to come up with an idea",
+            "9888260580",
+            0.0)
     }
 
     @Test
